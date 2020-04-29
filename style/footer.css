@@ -1,0 +1,15 @@
+.footer {
+    width: 100%;
+    background-color: #2F2F2F;
+    color: #7D958E;
+
+    margin: 25px 0 0 0;
+    padding: 25px 25px 25px 50px;
+    height: 125px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer {
+        padding-left: 15%;
+    }
+}

@@ -1,0 +1,80 @@
+.header {
+    width: 100%;
+    color: white;
+    padding: 30px 10px 10px 10px;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../img/header_bg.jpg');
+    background-size: cover;
+    margin: 0 0 50px 0;
+}
+
+.header h1 {
+    color: white;
+}
+
+.menu {
+    font-family: 'Roboto';
+}
+
+.menu a {
+    display: block;
+    padding: 16px;
+}
+
+.menu a:first-child {
+    padding-left: 0px;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.menu .active {
+    color: white;
+    cursor: grabbing;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+    .header {
+        padding-left: 15%;
+    }
+
+    .menu ul {
+        display: flex;
+        justify-content: left;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .menu ul {
+        display: flex;
+        justify-content: left;
+        padding-left: 0;
+    }
+
+    .header {
+        padding-left: 50px;
+    }
+}
+.menu li {
+    display: inline;
+    float: left;
+}
